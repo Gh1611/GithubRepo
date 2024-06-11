@@ -18,6 +18,7 @@ public class AllocationsApplication implements SampleApplication {
         }
         return true;
     }
+
 #feature202 changes by developer shilpa in oct 2023
  private class OddThread extends Thread {
 
@@ -49,6 +50,22 @@ public class AllocationsApplication implements SampleApplication {
         return i % 2 == 0;
     }
 #End of feature202 changes
+=======
+#feature201 changes by vivek in oct 2023
+ public void start() {
+        Collection<Integer> primeNumbers = new LinkedList<>();
+        System.out.println("Generating Prime numbers between 1 and " + max);
+        for (int i = 1; i < max; i++) {
+            boolean isPrimeNumber = true;
+            // Check whether the number is prime
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    isPrimeNumber = false;
+                    break;
+                }
+            }
+#end of feature201 changes
+
 
     @Override
     public void start() {
