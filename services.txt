@@ -3,9 +3,8 @@ HDFC Application
 Registration
 Login
 Types of Accounts
-Savings
-Current[A_Acct[B[D[D[D[D[D_Acct
-
+Savings_Acct
+Current_Acct
 
 Reports
 Cred_Reports
